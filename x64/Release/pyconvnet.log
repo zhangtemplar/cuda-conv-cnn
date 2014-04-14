@@ -1,0 +1,29 @@
+﻿Build started 4/13/2014 10:44:57 PM.
+     1>Project "C:\Users\Qiang\Documents\Visual Studio 2012\Projects\cuda-convnet-master\pyconvnet.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:".//pyconvnet.pyd" /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v5.5\lib\x64" /LIBPATH:C:\Anaconda\libs\ /LIBPATH:.\LIBS /LIBPATH:".\LIBS\Pre-built.2\lib\\" /LIBPATH:"C:\Program Files\Intel\MKL\10.0.5.025\em64t\lib" mkl_lapack.lib mkl_em64t.lib mkl_solver.lib mkl_sequential.lib mkl_intel_thread.lib mkl_cdft_core.lib mkl_core.lib pthreadVSE2.lib pthreadVC2_x64.lib libopenblas.lib python27.lib cublas.lib cudart.lib curand.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"./pyconvnet.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"./pyconvnet.lib" /MACHINE:X64 /DLL x64/Release/convnet.cu.obj
+         x64/Release/cost.cu.obj
+         x64/Release/conv_util.cu.obj
+         x64/Release/filter_acts.cu.obj
+         x64/Release/img_acts.cu.obj
+         x64/Release/weight_acts.cu.obj
+         x64/Release/data.cu.obj
+         x64/Release/layer.cu.obj
+         x64/Release/layer_kernels.cu.obj
+         x64/Release/neuron.cu.obj
+         x64/Release/nvmatrix.cu.obj
+         x64/Release/nvmatrix_kernels.cu.obj
+         x64/Release/pyconvnet.cu.obj
+         x64/Release/util.cu.obj
+         x64/Release/weights.cu.obj
+         x64/Release/worker.cu.obj
+         x64/Release/matrix.obj
+            Creating library ./pyconvnet.lib and object ./pyconvnet.exp
+         Generating code
+         Finished generating code
+         pyconvnet.vcxproj -> C:\Users\Qiang\Documents\Visual Studio 2012\Projects\cuda-convnet-master\./pyconvnet.pyd
+     1>Done Building Project "C:\Users\Qiang\Documents\Visual Studio 2012\Projects\cuda-convnet-master\pyconvnet.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.49
